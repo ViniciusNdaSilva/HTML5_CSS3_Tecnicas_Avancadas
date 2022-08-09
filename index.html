@@ -7,30 +7,56 @@
     <title>Recursos do HTML5</title>
 </head>
 <body>
-    <h1>Recursos do HTML5</h1>
-    <div>
-        <video width="320" height="240" controls>
-            <source src="video/cidade.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div>
-        <audio controls>
-            <source src="audio/music.mp3" type="audio/mpeg">
-        </audio>
-    </div>
-    <div>
-        <figure>
-            <img src="img/ricefield.jpg" alt="Campo de arroz">
-            <figcaption>Um lindo campo de arroz...</figcaption>
-        </figure>
-    </div>
-    <div>
-        <h3>Prencha o formulario para receber novidades!</h3>
-        <form>
-            <label>Nome:</label>
-            <input type="text" name="name" required placeholder="Digite seu nome completo">
-            <input type="submit" name="Enviar">
-        </form>
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1>Recursos do HTML5</h1>
+        <div>
+            <video width="320" height="240" controls>
+                <source src="video/cidade.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <audio controls>
+                <source src="audio/music.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <figure>
+                <img src="img/ricefield.jpg" alt="Campo de arroz">
+                <figcaption>Um lindo campo de arroz...</figcaption>
+            </figure>
+        </div>
+        <div>
+            <h3>Prencha o formulario para receber novidades!</h3>
+            <form>
+                <label>E-mail:</label>
+                <input type="email" name="email" required placeholder="Digite seu melhor email" autofocus>
+                <label>Nome:</label>
+                <input type="text" name="name" required placeholder="Digite seu nome completo">
+                <input type="submit" name="Enviar">
+            </form>
+        </div>
+        <div>
+            <p contenteditable="true">Este é um paragrafo que pode ser editado</p>
+        </div>
+    </article>
+    <aside>
+        <p>Confira os nossos produtos, <a href="#">Clicando aqui!</a></p>
+    </aside>
+    <details open="open">
+        <summary>Cachorro</summary>
+        <p>É um mamífero de 4 patas e também é um animal domestico</p>
+    </details>
+    <footer>
+        Rodapé
+    </footer>
 </body>
 </html>
