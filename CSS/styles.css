@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@keyframes animacao {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.animation-div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animacao;
+    animation-duration: 5s;
+}
